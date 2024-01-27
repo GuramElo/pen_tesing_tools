@@ -1,0 +1,6 @@
+dirsearch
+/backup.zip
+
+findstr /s exec( ./*  | vscode
+
+parameters & pages_source

